@@ -32,7 +32,7 @@ struct TimePicker: View {
     @ViewBuilder
     private func CustomView(_ title: String, range: ClosedRange<Int>,
                             _ selection: Binding<Int>) -> some View {
-        PickerViewWithoutIndicator(selection: self.$hours) {
+        PickerViewWithoutIndicator(selection: selection) {
             ForEach(range, id: \.self) { value in
                 Text("\(value)")
                     .frame(width: 35, alignment: .trailing)
