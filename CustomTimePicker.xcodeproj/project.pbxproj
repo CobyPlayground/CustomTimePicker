@@ -11,6 +11,7 @@
 		CBF2447E2C2E404B0050BD2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2447D2C2E404B0050BD2A /* ContentView.swift */; };
 		CBF244802C2E404C0050BD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF2447F2C2E404C0050BD2A /* Assets.xcassets */; };
 		CBF244832C2E404C0050BD2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBF244822C2E404C0050BD2A /* Preview Assets.xcassets */; };
+		CBF2448B2C2E40BF0050BD2A /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBF2448A2C2E40BF0050BD2A /* TimePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		CBF2447D2C2E404B0050BD2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CBF2447F2C2E404C0050BD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CBF244822C2E404C0050BD2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBF2448A2C2E40BF0050BD2A /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		CBF2447A2C2E404B0050BD2A /* CustomTimePicker */ = {
 			isa = PBXGroup;
 			children = (
+				CBF244892C2E40B10050BD2A /* View */,
 				CBF2447B2C2E404B0050BD2A /* CustomTimePickerApp.swift */,
 				CBF2447D2C2E404B0050BD2A /* ContentView.swift */,
 				CBF2447F2C2E404C0050BD2A /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				CBF244822C2E404C0050BD2A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CBF244892C2E40B10050BD2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CBF2448A2C2E40BF0050BD2A /* TimePicker.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF2448B2C2E40BF0050BD2A /* TimePicker.swift in Sources */,
 				CBF2447E2C2E404B0050BD2A /* ContentView.swift in Sources */,
 				CBF2447C2C2E404B0050BD2A /* CustomTimePickerApp.swift in Sources */,
 			);
